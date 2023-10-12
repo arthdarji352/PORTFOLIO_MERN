@@ -38,11 +38,11 @@ export const TechstackList = [
     name: "Javascript",
     icon: SiJavascript,
   },
-  {
-    _id: 5,
-    name: "TypeScript",
-    icon: SiTypescript,
-  },
+  // {
+  //   _id: 5,
+  //   name: "TypeScript",
+  //   icon: SiTypescript,
+  // },
 
   {
     _id: 7,
@@ -64,11 +64,11 @@ export const TechstackList = [
     name: "Tailwind ",
     icon: SiTailwindcss,
   },
-  {
-    _id: 11,
-    name: "Figma ",
-    icon: SiFigma,
-  },
+  // {
+  //   _id: 11,
+  //   name: "Figma ",
+  //   icon: SiFigma,
+  // },
 
   {
     _id: 13,
@@ -111,9 +111,9 @@ export const TechstackList = [
     name: "Git / Github ",
     icon: SiGithub,
   },
-  {
-    _id: 22,
-    name: "Docker ",
-    icon: SiDocker,
-  },
+  // {
+  //   _id: 22,
+  //   name: "Docker ",
+  //   icon: SiDocker,
+  // },
 ];
