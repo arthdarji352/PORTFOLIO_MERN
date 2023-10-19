@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // import { toast } from "react-toastify";
 // import axios from "axios";
 import "./Contact.css";
@@ -6,9 +6,9 @@ import Rotate from "react-reveal/Rotate";
 import LightSpeed from "react-reveal/LightSpeed";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 const Contact = () => {
-  //   const [name, setname] = useState("");
-  //   const [email, setEmail] = useState("");
-  //   const [msg, setMsg] = useState("");
+  const [name, setname] = useState("");
+  const [email, setEmail] = useState("");
+  const [msg, setMsg] = useState("");
 
   //handle submit button
   //   const handleSubmit = async (e) => {
@@ -35,6 +35,27 @@ const Contact = () => {
   //       console.log(error);
   //     }
   //   };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+
+  //   fetch("/api/contact", {
+  //     // Replace with your actual backend API URL
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify(formData),
+  //   })
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       // Handle the response from the server (e.g., show a success message)
+  //       console.log(data);
+  //     })
+  //     .catch((error) => {
+  //       // Handle errors (e.g., show an error message)
+  //       console.error(error);
+  //     });
+  // };
 
   return (
     <>
@@ -61,9 +82,19 @@ const Contact = () => {
                     <div className="row">
                       <h6>
                         Contact With
-                        <BsLinkedin color="blue" size={30} className="ms-2" />
-                        <BsGithub color="black" size={30} className="ms-2" />
-                        <BsFacebook color="blue" size={30} className="ms-2" />
+                        <a
+                          href="https://www.linkedin.com/in/arth-darji-764309213/"
+                          target="_blank"
+                        >
+                          <BsLinkedin color="blue" size={30} className="ms-2" />
+                        </a>
+                        <a
+                          href="https://github.com/arthdarji352"
+                          target="_blank"
+                        >
+                          <BsGithub color="black" size={30} className="ms-2" />
+                        </a>
+                        {/* <BsFacebook color="blue" size={30} className="ms-2" /> */}
                       </h6>
                     </div>
 
@@ -78,8 +109,8 @@ const Contact = () => {
                         name="name"
                         placeholder="Enter your Name"
                         className="mb-3"
-                        // value={name}
-                        // onChange={(e) => setname(e.target.value)}
+                        value={name}
+                        onChange={(e) => setname(e.target.value)}
                       />
                     </div>
                     <div className="row px-3">
@@ -88,8 +119,8 @@ const Contact = () => {
                         name="email"
                         placeholder="Enter Your Email Address"
                         className="mb-3"
-                        // value={email}
-                        // onChange={(e) => setEmail(e.target.value)}
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                       />
                     </div>
                     <div className="row px-3">
@@ -98,14 +129,14 @@ const Contact = () => {
                         name="msg"
                         placeholder="Write your message"
                         className="mb-3"
-                        // value={msg}
-                        // onChange={(e) => setMsg(e.target.value)}
+                        value={msg}
+                        onChange={(e) => setMsg(e.target.value)}
                       />
                     </div>
                     <div className="row px-3">
                       <button
                         className="button"
-                        //   onClick={handleSubmit}
+                        // onClick={handleSubmit}
                       >
                         SEND MESSAGE
                       </button>

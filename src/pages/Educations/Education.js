@@ -26,6 +26,9 @@ const Education = () => {
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">
+              Information and Technology(IT)
+            </h3>
+            <h3 className="vertical-timeline-element-title">
               Bachelor of Engineering
             </h3>
             <h4 className="vertical-timeline-element-subtitle">

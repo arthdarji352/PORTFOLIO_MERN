@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import Spin from "react-reveal/Spin";
+import estateIMG from "../../assets/images/estateproject.png";
 
 const Projects = () => {
   return (
@@ -20,10 +21,7 @@ const Projects = () => {
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">Full Stack</span>
-                  <img
-                    src="https://unctad.org/sites/default/files/2021-03/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg"
-                    alt="Project1"
-                  />
+                  <img src={estateIMG} alt="Project1" />
                 </div>
                 <div className="card-image-overly m-auto">
                   <span className="card-detail-badge">Node</span>
@@ -35,7 +33,11 @@ const Projects = () => {
                   <div className="ad-title m-auto">
                     <h5 className="text-uppercase">Ecommerce Apps</h5>
                   </div>
-                  <a href="#" className="ad-btn ">
+                  <a
+                    href="https://github.com/arthdarji352/mern-estate"
+                    target="_blank"
+                    className="ad-btn "
+                  >
                     View
                   </a>
                 </div>

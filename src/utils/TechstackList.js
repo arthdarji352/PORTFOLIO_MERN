@@ -25,7 +25,7 @@ export const TechstackList = [
   },
   {
     _id: 2,
-    name: "CSS / SCSS",
+    name: "CSS",
     icon: BsFiletypeCss,
   },
   {
@@ -38,22 +38,22 @@ export const TechstackList = [
     name: "Javascript",
     icon: SiJavascript,
   },
-  {
-    _id: 5,
-    name: "TypeScript",
-    icon: SiTypescript,
-  },
+  // {
+  //   _id: 5,
+  //   name: "TypeScript",
+  //   icon: SiTypescript,
+  // },
 
   {
     _id: 7,
     name: "React JS",
     icon: SiReact,
   },
-  {
-    _id: 8,
-    name: "Nextjs",
-    icon: TbBrandNextjs,
-  },
+  // {
+  //   _id: 8,
+  //   name: "Nextjs",
+  //   icon: TbBrandNextjs,
+  // },
   {
     _id: 9,
     name: "React MUI",
@@ -64,11 +64,11 @@ export const TechstackList = [
     name: "Tailwind ",
     icon: SiTailwindcss,
   },
-  {
-    _id: 11,
-    name: "Figma ",
-    icon: SiFigma,
-  },
+  // {
+  //   _id: 11,
+  //   name: "Figma ",
+  //   icon: SiFigma,
+  // },
 
   {
     _id: 13,
@@ -111,9 +111,9 @@ export const TechstackList = [
     name: "Git / Github ",
     icon: SiGithub,
   },
-  {
-    _id: 22,
-    name: "Docker ",
-    icon: SiDocker,
-  },
+  // {
+  //   _id: 22,
+  //   name: "Docker ",
+  //   icon: SiDocker,
+  // },
 ];
