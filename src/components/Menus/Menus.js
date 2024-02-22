@@ -12,7 +12,7 @@ import {
   FcReadingEbook,
   FcVideoProjector,
 } from "react-icons/fc";
-import Photo from "../../assets/Arth_photo.jpg";
+import PhotoSide from "../../assets/images/android-chrome-384x384.png";
 const Menus = ({ toggle }) => {
   return (
     <>
@@ -20,7 +20,7 @@ const Menus = ({ toggle }) => {
         <>
           <Zoom>
             <div className="navbar-profile-pic">
-              <img src={Photo} alt="profile pic" />
+              <img src={PhotoSide} alt="profile pic" />
             </div>
           </Zoom>
           <Fade left>
@@ -100,7 +100,7 @@ const Menus = ({ toggle }) => {
                     Work Experince
                   </Link>
                 </div>
-                <div className="nav-link">
+                {/* <div className="nav-link">
                   <Link
                     to="contact"
                     spy={true}
@@ -111,7 +111,7 @@ const Menus = ({ toggle }) => {
                     <FcBusinessContact />
                     Contact
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </Fade>

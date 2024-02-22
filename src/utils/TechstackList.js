@@ -16,6 +16,12 @@ import {
   SiFirebase,
   SiDocker,
   SiExpress,
+  SiRedux,
+  SiReduxsaga,
+  SiReactquery,
+  SiReactrouter,
+  SiNetlify,
+  SiVercel,
 } from "react-icons/si";
 export const TechstackList = [
   {
@@ -38,22 +44,22 @@ export const TechstackList = [
     name: "Javascript",
     icon: SiJavascript,
   },
-  // {
-  //   _id: 5,
-  //   name: "TypeScript",
-  //   icon: SiTypescript,
-  // },
+  {
+    _id: 5,
+    name: "TypeScript",
+    icon: SiTypescript,
+  },
 
   {
     _id: 7,
     name: "React JS",
     icon: SiReact,
   },
-  // {
-  //   _id: 8,
-  //   name: "Nextjs",
-  //   icon: TbBrandNextjs,
-  // },
+  {
+    _id: 8,
+    name: "Nextjs",
+    icon: TbBrandNextjs,
+  },
   {
     _id: 9,
     name: "React MUI",
@@ -64,12 +70,11 @@ export const TechstackList = [
     name: "Tailwind ",
     icon: SiTailwindcss,
   },
-  // {
-  //   _id: 11,
-  //   name: "Figma ",
-  //   icon: SiFigma,
-  // },
-
+  {
+    _id: 11,
+    name: "Figma ",
+    icon: SiFigma,
+  },
   {
     _id: 13,
     name: "Photoshop ",
@@ -111,9 +116,24 @@ export const TechstackList = [
     name: "Git / Github ",
     icon: SiGithub,
   },
-  // {
-  //   _id: 22,
-  //   name: "Docker ",
-  //   icon: SiDocker,
-  // },
+  {
+    _id: 22,
+    name: "Redux ",
+    icon: SiRedux,
+  },
+  {
+    _id: 23,
+    name: "Redux-Saga ",
+    icon: SiReduxsaga,
+  },
+  {
+    _id: 24,
+    name: "Docker ",
+    icon: SiDocker,
+  },
+  {
+    _id: 25,
+    name: "Netlify ",
+    icon: SiNetlify,
+  },
 ];

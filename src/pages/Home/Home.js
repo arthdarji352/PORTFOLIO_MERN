@@ -32,7 +32,8 @@ const Home = () => {
                   strings: [
                     "FullStack Developer!",
                     "Mern Stack Developer!",
-                    "React native developer!",
+                    "Frontend Developer!",
+                    "Backend Developer!",
                   ],
                   autoStart: true,
                   loop: true,
@@ -48,7 +49,7 @@ const Home = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                Hire Me
+                Contact Me
               </a>
               <a
                 className="btn btn-cv"

@@ -32,8 +32,12 @@ const Education = () => {
               Bachelor of Engineering
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Sardar Vallabhbhai Patel Institute of Technology(SVIT), Gujarat,IN
+              Sardar Vallabhbhai Patel Institute of Technology(SVIT),
+              Gujarat,INDIA
             </h4>
+            <p className="fs-5 fst-italic">
+              <u>8.0 CGPA</u>
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -45,7 +49,7 @@ const Education = () => {
           >
             <h3 className="vertical-timeline-element-title"> 12th - HSC</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Gangaba High School,Godhra,Gujarat,IN
+              Gangaba High School,Godhra,Gujarat
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement

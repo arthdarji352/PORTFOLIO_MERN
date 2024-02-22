@@ -23,11 +23,11 @@ function App() {
           <Techstack />
           <Projects />
           <WorkExp />
-          <Contact />
+          {/* <Contact /> */}
         </div>
-        <div className="footer pb-3 ms-3">
+        <div className="footer pb-3 ms-3 mt-3">
           <Tada>
-            <h4 className="text-center">Made With 😀 Arth &copy; 2023</h4>
+            <h4 className="text-center">Made With ❤ by Arth &copy; 2024</h4>
           </Tada>
         </div>
       </div>
